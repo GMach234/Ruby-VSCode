@@ -20,15 +20,15 @@ guess = gets.to_i
 
 num_guesses += 1
 
-# if guess < target
-#     puts "Oops. Your guess was LOW."
-# elsif guess > target
-#     puts "Oops. Your guess was HIGH."
+if guess < target
+    puts "Oops. Your guess was LOW."
+elsif guess > target
+    puts "Oops. Your guess was HIGH."
 # elsif guess == target 
 #     puts "Good job, #{name}!"
 #     puts "Your guesed my number in #{num_guesses} guesses!"
 #     guessed_it = true
-# end
+end
 
 # end
 

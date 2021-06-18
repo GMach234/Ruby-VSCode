@@ -32,9 +32,9 @@ end
 
 # end
 
-# unless guessed_it
-#     puts "Sorry. You didn't get my number. (It was #{target}."
-# end
+unless guessed_it
+    puts "Sorry. You didn't get my number. (It was #{target})"
+end
 
 
 

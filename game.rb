@@ -12,7 +12,7 @@ num_guesses = 0
 
 guessed_it = false
 
-# until num_guesses == 10 || guessed_it
+until num_guesses == 10 || guessed_it
 
 puts "You've got #{10 - num_guesses} guesses left."
 print "Make a guess: "
@@ -30,7 +30,7 @@ elsif guess == target
     guessed_it = true
 end
 
-# end
+end
 
 unless guessed_it
     puts "Sorry. You didn't get my number. (It was #{target})"

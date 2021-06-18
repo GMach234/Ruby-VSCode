@@ -10,7 +10,7 @@ target = rand(100)+1
 
 num_guesses = 0
 
-# guessed_it = false
+guessed_it = false
 
 # until num_guesses == 10 || guessed_it
 
@@ -24,10 +24,10 @@ if guess < target
     puts "Oops. Your guess was LOW."
 elsif guess > target
     puts "Oops. Your guess was HIGH."
-# elsif guess == target 
-#     puts "Good job, #{name}!"
-#     puts "Your guesed my number in #{num_guesses} guesses!"
-#     guessed_it = true
+elsif guess == target 
+    puts "Good job, #{name}!"
+    puts "Your guesed my number in #{num_guesses} guesses!"
+    guessed_it = true
 end
 
 # end

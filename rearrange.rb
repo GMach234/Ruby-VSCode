@@ -6,7 +6,7 @@ until is_int != false
     print "Enter a number: "
     number = gets.chomp
     is_int = Integer(number) rescue false
-end
+end 
 
 #Manage number as Array
 numArray = number.to_s.split('')

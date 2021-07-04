@@ -15,23 +15,23 @@ def calc_result(input1, input2)
         case input1
         when "rock"
             if input2 == "paper"
-                "Paper covers rock."
+                return "Paper covers rock.", "Player 2 wins."
             elsif input2 == "scissors"
-                "Rock crushes scissors"
+                return "Rock crushes scissors", "Player 1 wins."
             else "Tie!"
             end
         when "paper"
             if input2 == "scissors"
-                "Scissors cuts paper."
+                return "Scissors cuts paper.", "Player 2 wins."
             elsif input2 == "rock"
-                "Paper covers rock."
+                return "Paper covers rock.", "Player 1 wins"
             else "Tie!"
             end
         when "scissors"
             if input2 == "paper"
-                "Scissors cuts paper."
+                return "Scissors cuts paper.", "Player 1 wins."
             elsif input2 == "rock"
-                "Rock crushes scissors"
+                return "Rock crushes scissors", "Player 2 wins."
             else "Tie!"
             end
         end 

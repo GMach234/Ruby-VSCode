@@ -1,3 +1,5 @@
+
+#Input until positive Int input
 input = ''
 loop do
     print "Enter a year: "
@@ -8,6 +10,7 @@ end
 
 year = input.to_i
 
+#Check if leap year
 if year % 400 == 0
     puts "#{year} is a leap year"
 elsif (year % 4 == 0) && (year % 100 != 0)
